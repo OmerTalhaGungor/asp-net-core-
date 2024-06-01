@@ -1,0 +1,31 @@
+@model Kayit
+@{
+    ViewData["Title"] = "Ekle";
+}
+<div class="col-lg-8">
+    <div class="register-text" id="register">
+        <form method="post" class="register-form">
+            <div class="row">
+                <div class="col-lg-6">
+                    <label asp-for="Tip">Tip</label>
+                    <input asp-for="Tip" type="text" id="Name" class="form-control">
+                </div><br>
+                <div class="col-lg-6">
+                    <label asp-for="MarkaAdi">Marka Adı</label>
+                    <input asp-for="MarkaAdi" type="text" id="Name" class="form-control">
+                </div><br>
+             <div class="col-lg-6">
+                    <label asp-for="Fiyat">Fiyat</label>
+                    <input asp-for="Fiyat" type="text" id="Name" class="form-control">
+                </div><br>
+                <div class="col-lg-6">
+                    <label asp-for="Aciklama">Açıklama</label>
+                    <input asp-for="Aciklama" type="text" id="Name" class="form-control">
+                </div><br>
+                <div class="col-lg-6">
+                    <button type="submit" class="btn btn-primary">Ekle</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>  
